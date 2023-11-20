@@ -20,6 +20,24 @@ class TText{
   static const createANewAccount = "Create account";
   static const orSignInWith = "or Sign in with";
 
+  // common
+  static const commonAndLbl = "and";
+
+  //Sign Up
+ static const signUpFirstNameLbl = "First Name";
+ static const signUpLastNameLbl = "Last Name";
+ static const signUpUsernameLbl = "Username";
+ static const signUpEmailLbl = "Email";
+ static const signUpPhoneNumberLbl = "Phone Number";
+ static const signUpPasswordLbl = "Password";
+ static const signUpTitle = "Let's create your account";
+ static const signUpCreateAccountLbl = "Create Account";
+ static const signUpCreateIAgreeLbl = "I agree to";
+ static const signUpCreatePrivacyPolicyLbl = " Privacy Policy ";
+ static const signUpCreateTermsOfUseLbl = " Terms of use ";
+  static const orSignUpWith = "or Sign up with";
+
+
 
 
 

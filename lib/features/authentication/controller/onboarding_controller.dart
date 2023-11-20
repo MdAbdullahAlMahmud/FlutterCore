@@ -24,7 +24,6 @@ class OnBoardingController extends GetxController{
   }
   void nextPage(){
     if(currentIndex.value == 2){
-      THelperFunction.showSnackBar("Next Screen");
       Get.to(const LoginScreen());
     }else{
       int page = currentIndex.value + 1;
