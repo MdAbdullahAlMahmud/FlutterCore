@@ -22,6 +22,12 @@ class THelperFunction{
     return screenSize().width;
   }
 
+  static bool isDarkMode = Theme.of(context).brightness== Brightness.dark;
+
 
   static BuildContext context = Get.context!;
+
+
+  static TextTheme textTheme = Theme.of(context).textTheme;
+
 }
