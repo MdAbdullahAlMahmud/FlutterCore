@@ -41,4 +41,8 @@ class TDeviceUtils{
     return viewInsects.bottom > 0;
   }
 
+  static double getScrrenWidth = MediaQuery.of(context).size.width;
+  static double getScreenHeight = MediaQuery.of(context).size.height;
+
+
 }

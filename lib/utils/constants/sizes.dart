@@ -27,6 +27,8 @@ class TSize {
   static const spaceBtwInputField = 16.0;
   static const spaceBtwSection = 32.0;
 
+  static const cardRadius =16.0;
+
 
 
 
