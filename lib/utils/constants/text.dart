@@ -38,6 +38,11 @@ class TText{
   static const orSignUpWith = "or Sign up with";
 
 
+  //Home
+static const appBarTitle = "Good day for shopping";
+static const appBarSubTitle = "Abdullah";
+
+
 
 
 

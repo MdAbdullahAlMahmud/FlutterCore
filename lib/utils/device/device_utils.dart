@@ -27,6 +27,7 @@ class TDeviceUtils{
   static BuildContext context = Get.context!;
 
   static double getStatusBarHeight = MediaQuery.of(context).padding.top;
+  static double getAppBarHeight = kToolbarHeight;
 
   static double getPixelRation = MediaQuery.of(context).devicePixelRatio;
 
