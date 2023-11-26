@@ -28,6 +28,7 @@ class TSize {
   static const spaceBtwSection = 32.0;
 
   static const cardRadius =16.0;
+  static const defaultButtonSize =40.0;
 
 
 

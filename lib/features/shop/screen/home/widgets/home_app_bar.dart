@@ -1,6 +1,7 @@
 import 'package:e_commerce/common/widget/searchbar/search_bar.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
+import 'package:iconsax/iconsax.dart';
 
 import '../../../../../common/widget/appbar/appbar.dart';
 import '../../../../../common/widget/cart_widget.dart';
@@ -34,14 +35,27 @@ class THomeAppBar extends StatelessWidget {
                   )
                 ],
               ),
-              actions: [CartWidget(item: "2", onPressed: () {})],
+              actions: [
+                ItemWithBatchWidget(item: "2", onPressed: () {}),
+                ItemWithBatchWidget(
+                  item: "3",
+                  onPressed: () {},
+                  backgroundColor: TColors.notificationBatchBackground,
+                  icon: const Icon(Iconsax.notification, color: Colors.white,
+                  ),
+
+                ),
+              ],
             ),
-            SizedBox(height: TSize.defaultSpace,),
-            Padding(
-              padding: const EdgeInsets.all(16.0),
+            const SizedBox(height: TSize.defaultSpace,),
+            const Padding(
+              padding: EdgeInsets.all(16.0),
               child: TSearchbar(),
-            )
+            ),
+
           ],
+
+
         ))
     ;
   }

@@ -3,28 +3,30 @@ import 'package:iconsax/iconsax.dart';
 
 import '../../utils/constants/colors.dart';
 import '../styles/box_style.dart';
-class CartWidget extends StatelessWidget {
-  const CartWidget({
+class ItemWithBatchWidget extends StatelessWidget {
+  const ItemWithBatchWidget({
     super.key,
     required this.item,
-    this.color,
-    required this.onPressed
+    this.backgroundColor,
+    required this.onPressed,
+    this.icon,
   });
   final String item;
-  final Color? color;
+  final Color? backgroundColor;
   final VoidCallback onPressed;
+  final Icon? icon;
 
   @override
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        IconButton(onPressed: onPressed,  icon: const Icon(Iconsax.shopping_bag,color: TColors.white,)),
+        IconButton(onPressed: onPressed,  icon: icon ?? const Icon(Iconsax.shopping_bag,color: TColors.white,)),
         Positioned(
           right: 0,
           child: Container(
             height: 18,
             width: 18,
-            decoration: BoxStyle.boxBackgroundWithRadius(color ?? TColors.dark, 15),
+            decoration: BoxStyle.boxBackgroundWithRadius(backgroundColor ?? TColors.dark, 15),
             child: Center(
               child: Text(
                 item,

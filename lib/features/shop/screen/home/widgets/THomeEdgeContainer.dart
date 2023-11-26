@@ -11,6 +11,7 @@ class THomeEdgeContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return TCurvedEdgeHeader(
       color: TColors.primary,
+      size: 230,
       child: child,
 
     );

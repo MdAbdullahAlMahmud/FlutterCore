@@ -34,6 +34,8 @@ class TColors{
 
   static const Color grey = Color(0x0ff6f6f6);
   static const Color darkGrey = Color(0xf656363);
+  static const Color notificationBatchBackground = Color(0xE4C44D4D);
+  static const Color coreButtonColor = Color(0xE4C44D4D);
 
 
 
