@@ -12,17 +12,17 @@ class TSearchbar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: TDeviceUtils.getScrrenWidth,
-      padding:const  EdgeInsets.all(TSize.md),
+      width: TDeviceUtils.getScreenWidth(context),
+      padding:const  EdgeInsets.all(TSizes.md),
       decoration:BoxDecoration(
         color : TColors.white,
-        borderRadius: BorderRadius.circular(TSize.cardRadius),
+        borderRadius: BorderRadius.circular(TSizes.cardRadiusSm),
         border: Border.all(color: TColors.light),
       ),
       child: Row(
         children: [
           const Icon(Iconsax.search_normal , color:  TColors.darkGrey,),
-          const SizedBox(height: TSize.spaceBtwItems,),
+          const SizedBox(height: TSizes.spaceBtwItems,),
           const Text("Search in Store", /*style: Theme.of(context).textTheme.bodySmall*/),
         ],
       ),

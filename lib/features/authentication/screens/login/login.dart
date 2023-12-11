@@ -36,7 +36,7 @@ class LoginScreen extends StatelessWidget {
 
               // Footer section
               SizedBox(
-                height: TSize.spaceBtwSection,
+                height: TSizes.spaceBtwSections,
               ),
 
               SocialWidget(text: TText.orSignInWith),

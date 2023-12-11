@@ -26,14 +26,14 @@ class SignUpScreen extends StatelessWidget {
                 children: [
                   const IconButton(onPressed:null , icon: Icon(Icons.arrow_back)),
                   const SizedBox(
-                    height: TSize.spaceBtwItems,
+                    height: TSizes.spaceBtwItems,
                   ),
-                  Text(TText.signUpTitle, style:THelperFunction.textTheme.bodyMedium,)
+                  Text(TText.signUpTitle, style: Theme.of(context).textTheme.bodyMedium,)
 
                 ],
               ),
               const SizedBox(
-                height: TSize.spaceBtwSection,
+                height: TSizes.spaceBtwSections,
               ),
 
               //Form for input field
@@ -41,7 +41,7 @@ class SignUpScreen extends StatelessWidget {
 
               // Footer section
               const SizedBox(
-                height: TSize.spaceBtwSection,
+                height: TSizes.spaceBtwSections,
               ),
 
               const SocialWidget(text: TText.orSignUpWith),

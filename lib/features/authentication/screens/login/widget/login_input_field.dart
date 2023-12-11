@@ -24,7 +24,7 @@ class LoginInputField extends StatelessWidget {
               label: Text(TText.emailLbl)),
         ),
         const SizedBox(
-          height: TSize.spaceBtwInputField,
+          height: TSizes.spaceBtwInputFields,
         ),
         TextFormField(
           decoration: const InputDecoration(
@@ -34,7 +34,7 @@ class LoginInputField extends StatelessWidget {
         ),
 
         const SizedBox(
-          height: TSize.spaceBtwSection,
+          height: TSizes.spaceBtwSections,
         ),
 
         // Remember me and Forgot Password
@@ -57,7 +57,7 @@ class LoginInputField extends StatelessWidget {
           ],
         ),
         const SizedBox(
-          height: TSize.spaceBtwSection,
+          height: TSizes.spaceBtwSections,
         ),
 
         // Sign in button , create accout
@@ -70,7 +70,7 @@ class LoginInputField extends StatelessWidget {
                 },
                 child: const Text(TText.loginTitle))),
         const SizedBox(
-          height: TSize.spaceBtwItems,
+          height: TSizes.spaceBtwItems,
         ),
         SizedBox(
             width: double.infinity,

@@ -37,8 +37,8 @@ class OnBoardingScreen extends StatelessWidget {
           const OnboardingDot(),
           
           Positioned(
-            bottom: TDeviceUtils.getStatusBarHeight+5,
-              right: TSize.defaultSpace,
+            bottom: TDeviceUtils.getStatusBarHeight()+5,
+              right: TSizes.defaultSpace,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(shape:const  CircleBorder()),
                 child: const Icon(Iconsax.arrow_right_3),
@@ -64,7 +64,7 @@ class OnBoardingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(TSize.defaultSpace),
+      padding: const EdgeInsets.all(TSizes.defaultSpace),
       child: Column(
         children: [
           Image(
@@ -73,7 +73,7 @@ class OnBoardingPage extends StatelessWidget {
             height: THelperFunction.screenHeight() * 0.6,
           ),
           Text(title,style : Theme.of(context).textTheme.headlineMedium,textAlign: TextAlign.center,),
-          const SizedBox(height: TSize.spaceBtwItems,),
+          const SizedBox(height: TSizes.spaceBtwItems,),
           Text(description,style: Theme.of(context).textTheme.bodyMedium, textAlign: TextAlign.center)
         ],
       ),

@@ -7,10 +7,10 @@ class SpacingStyle{
   SpacingStyle._();
 
   static const paddingWithAppBarHeight = EdgeInsets.only(
-    top: TSize.appBarHeight,
-    left: TSize.defaultSpace,
-    right: TSize.defaultSpace,
-    bottom: TSize.defaultSpace,
+    top: TSizes.appBarHeight,
+    left: TSizes.defaultSpace,
+    right: TSizes.defaultSpace,
+    bottom: TSizes.defaultSpace,
 
   );
 }

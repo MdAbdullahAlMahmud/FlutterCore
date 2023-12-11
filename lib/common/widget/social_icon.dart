@@ -40,7 +40,7 @@ class SocialWidget extends StatelessWidget {
         ),
 
         const SizedBox(
-          height: TSize.spaceBtwItems,
+          height: TSizes.spaceBtwItems,
         ),
 
         // Footer login logos
@@ -53,13 +53,13 @@ class SocialWidget extends StatelessWidget {
               child: const IconButton(
                 onPressed: null,
                 icon: Image(
-                    height: TSize.iconSizeMd,
-                    width: TSize.iconSizeMd,
+                    height: TSizes.iconMd,
+                    width: TSizes.iconMd,
                     image: AssetImage(TImages.googleLogo)),
               ),
             ),
             const SizedBox(
-              width: TSize.spaceBtwItems,
+              width: TSizes.spaceBtwItems,
             ),
             Container(
               decoration: BoxStyle.boxBackgroundWithRadiusShadow(
@@ -67,8 +67,8 @@ class SocialWidget extends StatelessWidget {
               child: const IconButton(
                 onPressed: null,
                 icon: Image(
-                    height: TSize.iconSizeMd,
-                    width: TSize.iconSizeMd,
+                    height: TSizes.iconMd,
+                    width: TSizes.iconMd,
                     image: AssetImage(TImages.faceBookLogo)),
               ),
             )

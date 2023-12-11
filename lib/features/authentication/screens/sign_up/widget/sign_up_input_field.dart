@@ -22,7 +22,7 @@ class SignUpInputField extends StatelessWidget {
                           label: Text(TText.signUpFirstNameLbl)),
                     ),
                 ),
-                const SizedBox(width: TSize.defaultSpace,),
+                const SizedBox(width: TSizes.defaultSpace,),
                 Expanded(
                     child:  TextFormField(
                       decoration: const InputDecoration(
@@ -36,7 +36,7 @@ class SignUpInputField extends StatelessWidget {
             ),
 
             const SizedBox(
-              height: TSize.spaceBtwInputField,
+              height: TSizes.spaceBtwInputFields,
             ),
 
             TextFormField(
@@ -45,7 +45,7 @@ class SignUpInputField extends StatelessWidget {
                   label: Text(TText.signUpUsernameLbl)),
             ),
             const SizedBox(
-              height: TSize.spaceBtwInputField,
+              height: TSizes.spaceBtwInputFields,
             ),
 
             TextFormField(
@@ -54,7 +54,7 @@ class SignUpInputField extends StatelessWidget {
                   label: Text(TText.signUpEmailLbl)),
             ),
             const SizedBox(
-              height: TSize.spaceBtwInputField,
+              height: TSizes.spaceBtwInputFields,
             ),
 
             TextFormField(
@@ -63,7 +63,7 @@ class SignUpInputField extends StatelessWidget {
                   label: Text(TText.signUpPhoneNumberLbl)),
             ),
             const SizedBox(
-              height: TSize.spaceBtwInputField,
+              height: TSizes.spaceBtwInputFields,
             ),
 
 
@@ -77,7 +77,7 @@ class SignUpInputField extends StatelessWidget {
 
 
             const SizedBox(
-              height: TSize.spaceBtwSection,
+              height: TSizes.spaceBtwSections,
             ),
 
             // Remember me and Forgot Password
@@ -89,7 +89,7 @@ class SignUpInputField extends StatelessWidget {
                     onChanged: (state) {
                     }),
                 const SizedBox(
-                  height: TSize.spaceBtwSection,
+                  height: TSizes.spaceBtwSections,
                 ),
                 RichText(
                   text: TextSpan(
@@ -114,7 +114,7 @@ class SignUpInputField extends StatelessWidget {
             ),
 
             const SizedBox(
-              height: TSize.spaceBtwSection,
+              height: TSizes.spaceBtwSections,
             ),
 
             // Sign in button , create account
